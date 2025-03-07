@@ -1,0 +1,108 @@
+@media (min-width: 992px)  and (max-width: 1300px){
+    .header .header-menu ul li a{
+        font-size: 12px !important;
+    }
+    .aboutSection:before{
+        content: none !important;
+    }
+}
+@media (max-width: 992px) {
+    .wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+        padding: 0px !important;
+    }
+    .accordion .accordion-content{
+        margin-left: 0px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        img{
+            border-left: 8px solid #f8c12c;
+            border-right: 8px solid transparent !important;
+        }
+    }
+    .productsDetails {
+        padding: 20px 0px;
+    }
+    .banner__img{
+        height: 200px;
+    }
+    .contact__content{
+        padding-left: 0px !important;
+    }
+    .aboutSection:before{
+        content: none !important;
+    }
+    .slide-content{
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    footer {
+        h3{
+            margin: 35px 0px !important;
+        }
+        .col-sm-12{
+            padding: 0px !important;
+            border-right: 1px solid transparent  !important;
+        }
+        .container{
+            .row{
+                padding: 30px;
+            }
+        }
+    }
+  
+    .products__grid{
+        flex-direction: column;
+    }
+    .swiper-slide .container{
+        padding: 10px !important;
+    }
+    .slide-bg{
+        height: 80px !important;
+    }
+    .products__left{
+        width: 100% !important;
+        padding: 30px !important
+    }
+    .advantage__content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header{
+        margin-top: 0px;
+        .header-logo {
+            img{
+                max-width: 120px !important;
+            }
+        }
+    }
+  .desktop-menu {
+    display: none;
+  }
+  .header-menu ul{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    li{
+        
+        line-height: 80px;
+        padding: 0px;
+        &:before{
+            display: none;
+          }
+    }
+  }
+  .mobile-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+}

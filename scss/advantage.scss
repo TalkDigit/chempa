@@ -1,0 +1,41 @@
+.advantage{
+    background: url("/assets/images/CTA-bg-2.jpg");
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        top: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        height: 10px;
+        background-color: #e6b52f;
+        z-index: 2;
+    }
+    p{
+        color: #727272;
+        font-size: 24px;
+        max-width: 400px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    h4{
+        font-size: 26px;
+        font-weight: 300;
+        letter-spacing: 0px;
+        text-align: center;
+        font-weight: bold;
+        color: #e6b52f;
+        padding-top: 80px;
+        font-family: "Hind", sans-serif;
+    }
+    .advantage__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 80px 0px;
+        img{
+            max-width: 315px;
+        }
+    }
+}

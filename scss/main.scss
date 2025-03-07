@@ -1,0 +1,16 @@
+
+@use 'layouts/header.scss';
+@use 'layouts/footer.scss';
+@use 'slider.scss';
+@use 'advantage.scss';
+@use 'products.scss';
+@use 'about.scss';
+@use 'business.scss';
+@use 'carrers.scss';
+@use 'contact.scss';
+@use 'form.scss';
+@use 'responsive.scss';
+
+a{
+    text-decoration: none !important;
+}
