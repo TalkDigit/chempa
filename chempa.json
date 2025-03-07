@@ -1,0 +1,10 @@
+{
+    "uid": "chempa",
+    "append": true,
+    "watch": true,
+    "script": "index.mjs",
+    "sourceDir": "/var/www/development/chempa/.output/server",
+    "logFile": "/var/log/forever.log",
+    "outFile": "/var/log/out.log",
+    "errFile": "/var/log/error.log"
+}
