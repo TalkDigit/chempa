@@ -1,11 +1,8 @@
 <template>
   <section class="products">
       <div class="products__grid">
-          <div class="products__left">
-              <h5>Palm Chemical DMCC</h5>
-              <p>Check our variety of products in different sectors.</p>
-              <a href="/products">Products <i class="fa-solid fa-arrow-right"></i> </a>
-          </div>
+         <SabitSolGorselliMetin/>
+         
           <Swiper 
             :modules="[Autoplay, Navigation]" 
             :loop="true"

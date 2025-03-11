@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-3">
-                    <img src="/assets/images/logo.png" alt="logo"/>
+                    <a href="/"><img src="/assets/images/logo.png" alt="logo"/></a>
                     <p class="p">
                         Palm Chemical is a free zone member of Dubai Multi Commodities Centre in UAE
                     </p>
@@ -14,32 +14,32 @@
                     </h3>
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="/our-business/chemical-industry">
                                 Chemical Industry
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/our-business/metal-industry">
                                 Metal Industry
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/our-business/construction-industry">
                                 Construction Industry
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/our-business/furniture-industry">
                                 Furniture Industry
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/our-business/automobile-industry">
                                 Automobile Industry
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/our-business/marine-industry">
                                 Marine Industry
                             </a>
                         </li>
@@ -50,18 +50,14 @@
                         Products
                     </h3>
                     <ul>
+
                         <li>
-                            <a href="#">
-                                Adhesive and Sealants
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
+                            <a href="/products/chemical-raw-material">
                                 Chemical Raw Materials
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/products/metal-and-alloys">
                                 Metallurgical Raw Material
                             </a>
                         </li>
@@ -86,7 +82,7 @@
         </div>
         <div class="Copyright">
             <p>
-                Copyright 2017 •  Talk !   All Right Reserved
+                Copyright 2025 •  Talk !   All Right Reserved
             </p>
         </div>
     </footer>

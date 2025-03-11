@@ -1,0 +1,1 @@
+export { default } from "file:///Users/talk/Documents/GitHub/chempa/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

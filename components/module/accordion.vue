@@ -1,22 +1,30 @@
 <template>
-    <div class="accordion">
-      <div v-for="(item, index) in items" :key="index" class="accordion-item">
+    <div class="container">
+      <div class="accordion">
+
+      <div v-for="(item, index) in data.element.module" :key="index" class="accordion-item">
         <button class="accordion-header" @click="toggle(index)">
           <span class="icon" :class="{ 'open': activeIndex === index }">{{ activeIndex === index ? '-' : '+' }}</span>
-          {{ item.title }}
+          {{ getData(item, 'baslik') }}
         </button>
         <div v-show="activeIndex === index" class="accordion-content">
-            <img :src="item.resim" alt=""/>
-            <ul>
-                <li v-for="(content, i) in item.contents" :key="i">{{ content }}</li>
-            </ul>
+          <img v-if="getData(item, 'resim')" :src="getAssets(getData(item, 'resim'))" alt="" />
+          <div v-html="getData(item, 'editor')">
+
+          </div>
         </div>
       </div>
+    </div>
     </div>
 </template>
   
 <script setup>
 import { ref } from 'vue';
+
+import getData from "@/utilities/getData";
+import getAssets from "@/utilities/getAssets";
+const { data } = defineProps(["data"]);
+
 
 const items = ref([
   { 

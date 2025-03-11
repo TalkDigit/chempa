@@ -2,13 +2,16 @@ const getData = (e, type) => {
     const {locale} = useI18n()
  
     if (!e.increased) {
-        if(e.element){
-            return e.element.find(e => e.key == type).value[locale.value] //Element İçi veri dönüş 
+        if (e.element) {
+            const foundElement = e.element.find(e => e.key === type);
+            if (foundElement && foundElement.value && foundElement.value[locale.value]) {
+                return foundElement.value[locale.value];
+            }
         }else{
-            return e.find(a => a.key == type).value[locale.value] // Modül İçi veri dönüş
+            return e.find(a => a.key == type).value[locale.value] 
         }
     }else{
-        return e.element[0].value[locale.value] // Modül komponent status sorgulama
+        return e.element[0].value[locale.value] 
     }
     
 }
