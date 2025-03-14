@@ -10,6 +10,8 @@ const businessdetails = () => import('~/pages/business-details.vue').then(r => r
 const page = () => import('~/pages/page.vue').then(r => r.default || r)
 const productsdetails = () => import('~/pages/products-details.vue').then(r => r.default || r)
 
+
+
 export default <RouterConfig> {
   // https://router.vuejs.org/api/interfaces/routeroptions.html#routes
   routes: (_routes) => [
@@ -29,7 +31,7 @@ export default <RouterConfig> {
     {
       name: 'who-are-you',
       path: '/who-are-you',
-      component: weAreYou
+      component: weAreYou,
     },
     {
       name: 'business',
@@ -55,7 +57,7 @@ export default <RouterConfig> {
     {
       name: 'productsdetails',
       path: '/products/:slug',
-      component: productsdetails
+      component: productsdetails,
     },
     
     
