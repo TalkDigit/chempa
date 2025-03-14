@@ -5,7 +5,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-3">
                     <a href="/"><img src="/assets/images/logo.png" alt="logo"/></a>
                     <p class="p">
-                        Palm Chemical is a free zone member of Dubai Multi Commodities Centre in UAE
+                        Chempa is a free zone member of Dubai Multi Commodities Centre in UAE
                     </p>
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-3">
@@ -14,16 +14,16 @@
                     </h3>
                     <ul>
                         <li>
-                            <a href="/our-business/chemical-industry">
+                            <a href="#">
                                 Chemical Industry
                             </a>
                         </li>
                         <li>
-                            <a href="/our-business/metal-industry">
+                            <a href="#">
                                 Metal Industry
                             </a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="/our-business/construction-industry">
                                 Construction Industry
                             </a>
@@ -42,7 +42,7 @@
                             <a href="/our-business/marine-industry">
                                 Marine Industry
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-3">

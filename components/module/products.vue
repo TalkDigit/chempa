@@ -1,8 +1,11 @@
 <template>
   <section class="products">
       <div class="products__grid">
-         <SabitSolGorselliMetin/>
-         
+          <div class="products__left">
+              <h5>Chempa</h5>
+              <p>Check our variety of products in different sectors.</p>
+              <a href="/products">Products <i class="fa-solid fa-arrow-right"></i> </a>
+          </div>
           <Swiper 
             :modules="[Autoplay, Navigation]" 
             :loop="true"

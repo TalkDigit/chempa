@@ -2,7 +2,7 @@
     <section class="products">
         <div class="products__grid">
             <div class="products__left">
-              <h5>Palm Chemical DMCC</h5>
+              <h5>Chempa</h5>
               <p>Check our variety of products in different sectors.</p>
               <a href="/products">Products <i class="fa-solid fa-arrow-right"></i> </a>
           </div>
@@ -27,11 +27,11 @@
                         <a v-if="getData(item, 'baslik')" :href="getData(item, 'link')">
                                 {{ getData(item, 'baslik') }}
                             </a>
-                        <div>
+                        <!-- <div>
                             <a v-if="getData(item, 'aciklama')" :href="getData(item, 'link')">
                                 <span>{{ getData(item, 'aciklama') }}</span>
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </SwiperSlide>

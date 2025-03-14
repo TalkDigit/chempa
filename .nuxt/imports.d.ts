@@ -32,6 +32,7 @@ export { useCustomFetch } from '../composables/useCustomFetch';
 export { useBusiness } from '../stores/Business';
 export { useExample } from '../stores/Example';
 export { usePage } from '../stores/Page';
+export { useProducts } from '../stores/Products';
 export { useLangControl } from '../stores/langControl';
 export { defineStore, acceptHMRUpdate, usePinia, storeToRefs } from '../node_modules/@pinia/nuxt/dist/runtime/composables';
 export { useI18n } from '../node_modules/vue-i18n/dist/vue-i18n';

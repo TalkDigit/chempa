@@ -8,7 +8,7 @@
           {{ getData(item, 'baslik') }}
         </button>
         <div v-show="activeIndex === index" class="accordion-content">
-          <img v-if="getData(item, 'resim')" :src="getAssets(getData(item, 'resim'))" alt="" />
+          <!-- <img v-if="getData(item, 'resim')" :src="getAssets(getData(item, 'resim'))" alt="" /> -->
           <div v-html="getData(item, 'editor')">
 
           </div>

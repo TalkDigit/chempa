@@ -7,10 +7,10 @@
                 <div class="col-sm-12 col-md-6 col-lg-4"  v-for="item in Page">
                     <a :href="'/products/' + item.data.slug[locale]" > 
                         <div class="productsListContent">
-                       
+<!--                        
                              <Swiper :modules="[Autoplay]" :slides-per-view="3" :loop="true" :autoplay="{ delay: 3000, disableOnInteraction: false }" class="swiperProducts">
                                 <SwiperSlide v-for="(item, index) in item.data.slider_gorseller[locale]"   class="slide" :style="{ backgroundImage: `url(${getAssets(item)})` }"> </SwiperSlide>
-                            </Swiper> 
+                            </Swiper>  -->
                             <a :href="'/products/' + item.data.slug[locale]" > 
                               {{item.data.baslik[locale]}}
 
