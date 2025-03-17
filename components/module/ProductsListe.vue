@@ -15,7 +15,7 @@
                               {{item.data.baslik[locale]}}
 
                             </a>
-                            <span>PRODUCT</span>
+                            <!-- <span>PRODUCT</span> -->
                             <div class="hr"></div>
                             <p v-if="item.data.aciklama && item.data.aciklama[locale]" v-html="item.data.aciklama[locale]"></p>
 
