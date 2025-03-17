@@ -175,6 +175,8 @@ export const usePage = defineStore('Page', () => {
         })
     }
 
+    
+
     return {
         HomePage,
         fetchHomePage,

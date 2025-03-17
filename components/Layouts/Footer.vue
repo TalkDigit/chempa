@@ -4,9 +4,9 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-3">
                     <a href="/"><img src="/assets/images/logo.png" alt="logo"/></a>
-                    <p class="p">
+                    <!-- <p class="p">
                         Chempa is a free zone member of Dubai Multi Commodities Centre in UAE
-                    </p>
+                    </p> -->
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-3">
                     <h3>
