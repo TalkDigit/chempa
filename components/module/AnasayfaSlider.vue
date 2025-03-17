@@ -4,7 +4,7 @@
     :slides-per-view="1"
     :loop="true"
     :autoplay="{ delay: 3000, disableOnInteraction: false }"
-    navigation
+
     class="my-swiper"
   >
     <SwiperSlide
