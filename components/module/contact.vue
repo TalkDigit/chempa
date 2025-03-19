@@ -6,7 +6,7 @@
                     <div class="contact__content">
                         <h2>Get In Touch / Contact Us</h2>
                         <div class="hr"></div>
-                        <p>Thanks to get in touch with us. Please write all of your details as well as your questions, inquiries and complains. We are honored to assists you as Chempa Team.</p>
+                        <p>Thank you for reaching out to us. Please provide all your details along with any questions, inquiries, or complaints. The Chempa Team is honored to assist you.</p>
                     </div>
                     <Form/>
                 </div>
