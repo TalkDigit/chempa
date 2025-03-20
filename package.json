@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "duct-notification": "^1.0.6",
     "jquery": "^3.7.1",
     "nuxt": "^3.12.4",
     "swiper": "^11.2.5",
