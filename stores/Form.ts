@@ -17,16 +17,18 @@ export const useForm = defineStore('Form', () => {
         .then(response => {
             if(!response.data.value.success){
                 notification({
-                    type : 'warning',
-                    message : 'basarisiz',  
+                    type: 'warning',
+                    head: 'Warning',
+                    message: 'There was an issue with your submission. Please try again.', 
                     timer : 15000
                 })
                 return false
             }
             
             notification({
-                type : 'success',
-                message : 'basarili',
+                type: 'success',
+                head: 'Success',
+                message: 'Your form has been successfully submitted!',
                 timer : 15000
             })
             FormCheck.value = {}  
@@ -46,16 +48,18 @@ export const useForm = defineStore('Form', () => {
         .then(response => {
             if(!response.data.value.success){
                 notification({
-                    type : 'warning',
-                    message : 'basarisiz',
+                    type: 'warning',
+                    head: 'Warning',
+                    message: 'There was an issue with your submission. Please try again.', 
                     timer : 15000
                 })
                 return false
             }
             
             notification({
-                type : 'success',
-                message : 'basarili',
+                type: 'success',
+                head: 'Success',
+                message: 'Your form has been successfully submitted!',
                 timer : 15000
             })
             FormCheck.value = {}  
